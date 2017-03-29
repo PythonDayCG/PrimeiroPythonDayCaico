@@ -1,0 +1,60 @@
+@import "../../defaults";
+
+.header {
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(13,71,161,0.5), rgba(30,136,229,0.8)), url(#) no-repeat;
+    background-size: cover;
+
+    @media screen and(max-width: 728px) {
+        height: 80vh;
+    }
+}
+
+.title, .location {
+    font-family: "Panton Light";
+    font-size: 5.8vmin;
+    color: $white;
+    display: block;
+    white-space: nowrap;
+
+    @media screen and(max-width: 728px) {
+         font-size: 5vmin;
+    }
+}
+
+.location {
+    font-size: 4vmin;
+    margin-bottom: 30px;
+}
+
+.date {
+    font-family: "Panton Bold";
+    font-size: 5.8vmin;
+    color: $white;
+    display: block;
+}
+
+a.signup {
+    background: $yellow;
+    font-size: 2.3vmin;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 2px;
+    color: $white;
+    text-align: center;
+    font-family: "Panton Bold";
+    text-decoration: none;
+
+    @media screen and (max-width: 588px) {
+        display: block;
+    }
+}
+
+.content {
+    margin: 3vw;
+    margin-top: 30vh;
+}
+
+.transparent {
+    opacity: 0;
+}
