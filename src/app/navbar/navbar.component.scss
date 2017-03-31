@@ -1,0 +1,37 @@
+@import "../../defaults";
+
+.navbar {
+    position: absolute;
+    width: 100%;
+}
+
+.logo {
+    width: 5vw;
+    position: absolute;
+
+    @media screen and (max-width: 588px) {
+        width: 8vw;
+    }
+}
+
+.title {
+    color: $white;
+    font-family: "Panton Light";
+    font-size: 4vmin;
+    line-height: calc(5vw + 6px);
+    margin-left: calc(5vw + 15px);
+
+    @media screen and (max-width: 588px) {
+            line-height: 8vw;
+            margin-left: calc(8vw + 15px);
+    }
+}
+
+.navbar-content {
+    width: 96%;
+    margin: 2vw;
+}
+
+.bold {
+    font-family: "Panton Bold";
+}
